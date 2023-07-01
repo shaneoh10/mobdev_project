@@ -29,6 +29,15 @@ const routes: Routes = [
               loadChildren: () => import('../sports/sports.module').then( m => m.SportsPageModule)
             }
           ]
+        },
+        {
+          path: 'finance',
+          children: [
+            {
+              path: '',
+              loadChildren: () => import('../finance/finance.module').then( m => m.FinancePageModule)
+            }
+          ]
         }
       ]
     },
