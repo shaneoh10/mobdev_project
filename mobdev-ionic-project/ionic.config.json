@@ -1,7 +1,0 @@
-{
-  "name": "mobdev-ionic-project",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
